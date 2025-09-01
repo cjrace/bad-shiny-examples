@@ -59,7 +59,7 @@ page_navbar(
   ),
 
   # Performance Analysis Page
-  nav_panel(
+  nav_panel_hidden(
     "Performance",
     layout_columns(
       col_widths = c(4, 8),
@@ -104,7 +104,7 @@ page_navbar(
   ),
 
   # Comparison Page
-  nav_panel(
+  nav_panel_hidden(
     "Car Comparison",
     page_sidebar(
       sidebar = sidebar(
