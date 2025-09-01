@@ -1,7 +1,7 @@
 page_navbar(
   title = "MTCars Explorer",
   id = "mtcars_explorer",
-  theme = bs_theme(bootswatch = "flatly"),
+  theme = bs_theme(bootswatch = "quartz"),
 
   # Data Overview Page
   nav_panel(
