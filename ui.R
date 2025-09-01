@@ -28,7 +28,7 @@ page_navbar(
   ),
 
   # Visualizations Page
-  nav_panel(
+  nav_panel_hidden(
     "Visualizations",
     page_sidebar(
       sidebar = sidebar(
