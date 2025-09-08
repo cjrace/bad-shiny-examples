@@ -1,5 +1,5 @@
 page_navbar(
-  title = "MTCars Explorer",
+  #title = "MTCars Explorer",
   id = "mtcars_explorer",
   theme = bs_theme(bootswatch = "quartz"),
 
@@ -12,7 +12,7 @@ page_navbar(
       style = "margin-top: 20px; text-align: left;",
       actionButton("go_to_comparison", "Click here",
                    class = "btn-primary btn-lg",
-                   icon = icon("table", lib = "font-awesome")),
+                   icon = icon("table", lib = "font-awesome")), 
 
       style = "margin-top: 20px; text-align: center;",
       actionButton("go_to_viz", "Click here",
@@ -24,6 +24,15 @@ page_navbar(
                    class = "btn-primary btn-lg",
                    icon = icon("masks-theater", lib = "font-awesome"))
     ),
+
+    div(
+      style = "margin-top: 30px; text-align: center;",
+      img(
+        src = "website_description.png",
+        alt = "An image describing the website",
+        style = "max-width: 100%; height: auto;"
+      )
+    )
 
   ),
 
